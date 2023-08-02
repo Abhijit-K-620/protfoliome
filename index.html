@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://codepen.io/GreenSock/pen/7ba936b34824fefdccfe2c6d9f0b740b.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Abhijit</title>
+    <link rel="icon" href="https://signature.freefire-name.com/img.php?f=7&t=Abhijit">
+</head>
+
+<body>
+    <section class="sticky-top nb">
+        <div class="container-fluid">
+            <nav class="navbar navbar-light navbar-expand-lg  w-100">
+                <div class="logo">
+                    <h2>Abhijit</h2>
+                </div>
+                <a href="#" class="navbarbrand"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="collapsingNavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#abou" class="nav-link">AboutUs</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="#edu" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html"  class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="protfolio.html"  class="nav-link">Portfolio</a>
+                        </li>
+
+
+                    </ul>
+                    <ul class="mx-auto">
+                        <li class="nav-item">
+                      <a href="login.html" ><button class="buto">Login <i class="ri-search-line"></i></button></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="page1">
+        <div class="container-fluid">
+            <div class="row pg1">
+                <div class="slider" id="slider"
+                    ">
+                    <div class="slider__content" id="slider-content">
+                        <div class="slider__images">
+                            <div class="slider__images-item slider__images-item--active sailo" data-id="1"><img
+                                    src="https://static.vecteezy.com/system/resources/thumbnails/004/697/688/small/curve-light-blue-background-abstract-free-vector.jpg" />
+                            </div>
+                            <div class="slider__images-item" data-id="2"><img
+                                    src="https://img.freepik.com/premium-vector/modern-background-with-geometric-shapes_336924-4317.jpg" />
+                            </div>
+                            <div class="slider__images-item" data-id="3"><img
+                                    src="https://img.freepik.com/free-vector/blue-gradient-blank-background-business_53876-120508.jpg" />
+                            </div>
+                            <div class="slider__images-item" data-id="4"><img
+                                    src="https://img.freepik.com/premium-vector/modern-background-with-geometric-shapes_336924-4317.jpg" />
+                            </div>
+                            <div class="slider__images-item" data-id="5"><img
+                                    src="https://images.unsplash.com/photo-1636955816868-fcb881e57954?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80" />
+                            </div>
+                        </div>
+                        <div class="slider__text">
+                            <div class="slider__text-item slider__text-item--active" data-id="1">
+                                <div class="slider__text-item-head">
+                                    <h3>Abhijit Kumar</h3>
+                                </div>
+                                <div class="slider__text-item-info">
+                                    <p>“A Web Learner from Alphawizz”</p>
+                                </div>
+                            </div>
+                            <div class="slider__text-item" data-id="2">
+                                <div class="slider__text-item-head">
+                                    <h3>Web Designer</h3>
+                                </div>
+                                <div class="slider__text-item-info">
+                                    <p>“I am a skilled person in web Development”
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider__text-item" data-id="3">
+                                <div class="slider__text-item-head">
+                                    <h3>Cliffs</h3>
+                                </div>
+                                <div class="slider__text-item-info">
+                                    <p>“Go to the edge of the cliff and jump off. Build your wings on the way down”</p>
+                                </div>
+                            </div>
+                            <div class="slider__text-item" data-id="4">
+                                <div class="slider__text-item-head">
+                                    <h3>Mountains</h3>
+                                </div>
+                                <div class="slider__text-item-info">
+                                    <p>“What are men to rocks and mountains?”</p>
+                                </div>
+                            </div>
+                            <div class="slider__text-item" data-id="5">
+                                <div class="slider__text-item-head">
+                                    <h3>Peaks</h3>
+                                </div>
+                                <div class="slider__text-item-info">
+                                    <p>“On all the peaks lies peace”</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__nav">
+                        <div class="slider__nav-arrows">
+                            <div class="slider__nav-arrow slider__nav-arrow--left" id="left">to left</div>
+                            <div class="slider__nav-arrow slider__nav-arrow--right" id="right">to right</div>
+                        </div>
+                        <div class="slider__nav-dots" id="slider-dots">
+                            <div class="slider__nav-dot slider__nav-dot--active" data-id="1"></div>
+                            <div class="slider__nav-dot" data-id="2"></div>
+                            <div class="slider__nav-dot" data-id="3"></div>
+                            <div class="slider__nav-dot" data-id="4"></div>
+                            <div class="slider__nav-dot" data-id="5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="page2">
+        <div class="container-fluid">
+            <div class="row pg2" id="canvas_container">
+
+                <div class="col-lg-4">
+                    <div class="pro-img">
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about" id="abou">
+                        <h2> <span>About</span> Me</h2>
+                        <p>Web developer with expertise in creating innovative and user-friendly websites. Skilled in
+                            HTML,
+                            CSS, JavaScript, and various web development tools. Committed to delivering high-quality
+                            work
+                            with exceptional attention to detail. Passionate about exploring new technologies and
+                            finding
+                            creative solutions to complex problems.</p>
+
+                        <ul>
+                            <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                            <li class="tab-links" onclick="openTab('education')">Education</li>
+                            <li class="tab-links" onclick="openTab('experiences')">Training-session</li>
+                        </ul>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <h3 class="bgcolor">Web Designing</h3>
+                            <p>Creating Innovative Designs</p>
+
+                            <h3 class="bgcolor">node.js</h3>
+                            <p>Using technology for learning</p>
+
+                            <h3 class="bgcolor">Express JavaScript</h3>
+                            <p>Covering the trends in Tech</p>
+
+                        </div>
+
+                        <div class="tab-contents education" id="education">
+                            <h3 class="bgcolor">2019 - 2023 | B.Tech</h3>
+                            <p>IES College of Technology | Rgpv University </p>
+
+                            <h3 class="bgcolor">2018 - 2019 | 12th</h3>
+                            <p>M.S.Y College | BSEB</p>
+
+                            <h3 class="bgcolor">2016 - 2017 | Matriculation</h3>
+                            <p> V.N.H School | BSEB </p>
+
+                        </div>
+
+                        <div class="tab-contents experiences" id="experiences">
+                            <h3 class="bgcolor">Alphawizz Technology</h3>
+                            <p>Work as a web Designer</p>
+                            <h3 class="bgcolor">Sheryians coding School </h3>
+                            <p>Works as a Learner web developer</p>
+
+                            <h3 class="bgcolor">NPTI shivpuri,Madhya Pradesh</h3>
+                            <p>Worked as an intern, learned a lot with Power Plant simulator training.</p>
+
+                            <h3 class="bgcolor">Indeyes Infotech </h3>
+                            <p>Worked as Learner Arduino Uno Programming</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page3 ">
+        <!-- <div class="github">
+        </div> -->
+
+        <div class="container-fluid ">
+            <div class="row pg3 ">
+
+                <div class="col-lg-12">
+                    <div class="proje">
+                        <h1>My Project Work.</h1>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row pg03">
+                <div class="col-lg-3">
+                    <diV class="projecar">
+                        <div class="proje-img">
+                            <img src="Screenshot 2023-07-21 110127.jpg" alt="">
+                        </div>
+
+                        <p>This project using Technology Html,CSS,Bootstrap</p>
+                        <a href="https://abhijit-k-620.github.io/Repair/" >View My Project</a>
+
+                    </diV>
+                </div>
+                <div class="col-lg-3">
+                    <diV class="projecar">
+                        <div class="proje-img">
+                            <img src="Screenshot 2023-07-21 121103.png" alt="">
+                        </div>
+
+                        <p>This project using Technology Html,CSS,Bootstrap</p>
+                        <a href="https://abhijit-k-620.github.io/Course/" >View My Project</a>
+
+                    </diV>
+
+
+                </div>
+
+                <div class="col-lg-3">
+                    <diV class="projecar">
+                        <div class="proje-img">
+                            <img src="Screenshot 2023-07-21 122837.png" alt="">
+                        </div>
+
+                        <p>This project using Technology Html,CSS,Bootstrap</p>
+                        <a href="https://abhijit-k-620.github.io/mentorship/" >View My Project</a>
+
+                    </diV>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="page4" id="edu" >
+        <div class="container">
+            <div class="row pg4">
+                <div class="col-lg-6">
+                    <div class="our">
+                        <h1>Our Education</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="college">
+                        <div class="colle">
+                            <h3>
+                                This is my B.tech Institute
+                            </h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="high">
+                        <div class="colle">
+                            <h3>
+                                This is my 12th school
+                            </h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="primary">
+                        <div class="colle">
+                            <h3>
+                                This is my primary School
+                            </h3>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="page5">
+        <div class="container-fluid">
+            <div class="row pg5">
+                <div class="col-lg-6">
+                    <div class="footer">
+                        <input type="text" name="" placeholder="Your name" id="">
+                        <input type="email" name="" placeholder="Email" id="">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button>Submit</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer-right">
+                        <h1>My Contact</h1>
+                        <h4>Phone:-</h4>
+                        <p>6201897985</p>
+                        <h4>Email:-</h4>
+                        <p>62018abhijit@gamil.com</p>
+                        <h4>Social media Profile</h4>
+                        <div class="icon">
+                            <div class="ico">
+                        <a href="#" class="ri-instagram-line"></a></div>
+                        <div class="ico">
+                        <a href="#" class="ri-facebook-fill" ></a>
+                        </div>
+                        <div class="ico">
+                        <a href="#" class="ri-linkedin-line"></a>
+                        </div>
+                        <div class="ico">
+                        <a href="#" class="ri-twitter-line" ></a>
+                        </div>
+                        <div class="ico">
+                        <a href="#" class="ri-github-line"></a>
+                    </div>
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page6">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="last">
+                        <p>Copyright © 2023 Abhijit. Kumar | All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>   
+     </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-path-polygon@2.9.3/tsparticles.path.polygon.min.js"></script>
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.121.1/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
